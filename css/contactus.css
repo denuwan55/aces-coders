@@ -25,11 +25,11 @@
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
 
-* {
+/** {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
+}*/
 
 body,
 html {
@@ -345,27 +345,38 @@ textarea.input1+.shadow-input1 {
 } */
 
 .download-btn {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Righteous', cursive !important;
+    min-height: 65px;
+    background-color: #000;
     display: flex;
+    justify-content: center;
     align-items: center;
+    border-radius: 2mm;
+}
+.download-btn-a {
     width: 200px;
     padding: 20px 30px;
     position: relative;
     display: block;
     text-decoration: none;
     overflow: hidden;
-    font-family: 'Righteous', cursive;
+    border-radius: 2mm;
+    font-family: 'Righteous', cursive !important;
 }
-.download-btn:hover .wave {
+.download-btn-a:hover .wave {
     top: -120px;
 }
-.download-btn span {
+.download-btn-a span {
     position: relative;
     z-index: 1;
     color: white;
     font-size: 15px;
     letter-spacing: 8px;
 }
-.download-btn .wave {
+.download-btn-a .wave {
     width: 200px;
     height: 200px;
     background-color: #444857;
@@ -375,7 +386,7 @@ textarea.input1+.shadow-input1 {
     top: -80px;
     transition: 0.4s;
 }
-.download-btn .wave::before, .download-btn .wave::after {
+.download-btn-a .wave::before, .download-btn .wave::after {
     width: 200%;
     height: 200%;
     content: "";
@@ -384,12 +395,12 @@ textarea.input1+.shadow-input1 {
     left: 50%;
     transform: translate(-50%, -75%);
 }
-.download-btn .wave::before {
+.download-btn-a .wave::before {
     border-radius: 45%;
     background-color: rgba(20, 20, 20, 1);
     animation: wave 5s linear infinite;
 }
-.download-btn .wave::after {
+.download-btn-a .wave::after {
     border-radius: 40%;
     background-color: rgba(20, 20, 20, 0.5);
     animation: wave 10s linear infinite;
