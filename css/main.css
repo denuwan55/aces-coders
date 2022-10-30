@@ -167,6 +167,7 @@
     border-radius: 10px;
 }
 
+
 .textAboutRule {
     color: white;
     display: inline;
@@ -259,7 +260,7 @@
         left: 0;
         height: 100%;
         width: 100%;
-        background-color: #324968;
+        background-color: #002f57;
         opacity: 0.8;
         z-index: 1;
     }
@@ -383,7 +384,7 @@
         left: 0;
         height: 100%;
         width: 100%;
-        background-color: #324968;
+        background-color: #002f57;
         opacity: 0.8;
         z-index: 1;
     }
@@ -510,7 +511,7 @@
         left: 0;
         height: 105%;
         width: 100%;
-        background-color: #324968;
+        background-color: #002f57;
         opacity: 0.6;
         z-index: 1;
       
