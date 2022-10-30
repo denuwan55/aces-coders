@@ -261,7 +261,7 @@
         height: 100%;
         width: 100%;
         background-color: #002f57;
-        opacity: 0.8;
+        opacity: 0.6;
         z-index: 1;
     }
     header .overlay-img{
@@ -274,7 +274,7 @@
         background-size: cover;
         background-position: -370px 0px;
         background-repeat: no-repeat;
-        opacity: 0.8;
+        opacity: 0.6;
         z-index: 1;
     }
 
@@ -385,7 +385,7 @@
         height: 100%;
         width: 100%;
         background-color: #002f57;
-        opacity: 0.8;
+        opacity: 0.6;
         z-index: 1;
     }
     header .overlay-img{
@@ -398,7 +398,7 @@
         background-size: cover;
         background-position: -0px -0px;
         background-repeat: no-repeat;
-        opacity: 0.8;
+        opacity: 0.6;
         z-index: 1;
     }
     .homePHead {
@@ -526,7 +526,7 @@
         background-size: cover;
         background-position: 0px -300px;
         background-repeat: no-repeat;
-        opacity: 0.8;
+        opacity: 0.6;
         z-index: 1;
     }
     .homePHead {
@@ -581,7 +581,7 @@
         background-size: cover;
         background-position: 0px -50px;
         background-repeat: no-repeat;
-        opacity: 0.8;
+        opacity: 0.6;
         z-index: 1;
     }
 }
@@ -597,7 +597,7 @@
         background-size: cover;
         background-position: 0px -160px;
         background-repeat: no-repeat;
-        opacity: 0.8;
+        opacity: 0.6;
         z-index: 1;
     }
 }
