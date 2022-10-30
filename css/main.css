@@ -263,6 +263,20 @@
         opacity: 0.8;
         z-index: 1;
     }
+    header .overlay-img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: url("../img/overlay-image.png");
+        background-size: cover;
+        background-position: -370px 0px;
+        background-repeat: no-repeat;
+        opacity: 0.8;
+        z-index: 1;
+    }
+
     .homePHead {
         color: white;
         display: inline;
@@ -373,6 +387,19 @@
         opacity: 0.8;
         z-index: 1;
     }
+    header .overlay-img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: url("../img/overlay-image.png");
+        background-size: cover;
+        background-position: -0px -0px;
+        background-repeat: no-repeat;
+        opacity: 0.8;
+        z-index: 1;
+    }
     .homePHead {
         color: white;
         display: inline;
@@ -478,21 +505,27 @@
         z-index: 2;
     }
     header .overlay {
-        /* position: absolute;
+        position: absolute;
         top: 0;
         left: 0;
         height: 105%;
         width: 100%;
         background-color: #324968;
         opacity: 0.6;
-        z-index: 1; */
+        z-index: 1;
+      
+    }
+    header .overlay-img{
         position: absolute;
-        top: -275px;
-        left: -152px;
-        height: 168%;
-        width: 112%;
-        background-color: #324968;
-        opacity: 0.6;
+        top: 0;
+        left: 0;
+        height: 105%;
+        width: 100%;
+        background: url("../img/overlay-image.png");
+        background-size: cover;
+        background-position: 0px -300px;
+        background-repeat: no-repeat;
+        opacity: 0.8;
         z-index: 1;
     }
     .homePHead {
@@ -533,6 +566,38 @@
     }
     .marginSet {
         margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 768px) {
+    header .overlay-img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 105%;
+        width: 100%;
+        background: url("../img/overlay-image.png");
+        background-size: cover;
+        background-position: 0px -50px;
+        background-repeat: no-repeat;
+        opacity: 0.8;
+        z-index: 1;
+    }
+}
+
+@media only screen and (max-width: 1071px) and (min-width: 900px) {
+    header .overlay-img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 105%;
+        width: 100%;
+        background: url("../img/overlay-image.png");
+        background-size: cover;
+        background-position: 0px -160px;
+        background-repeat: no-repeat;
+        opacity: 0.8;
+        z-index: 1;
     }
 }
 
