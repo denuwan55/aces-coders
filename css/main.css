@@ -1,6 +1,6 @@
 .mainHeadWinp {
     margin-top: 35px;
-    color: #ffbe29;
+    color: #fb7038;
     font-family: Courier New;
 }
 
@@ -11,7 +11,7 @@
 }
 
 .textAbout {
-    font-family: Courier New;
+    font-family: 'Righteous', cursive;
     color: white;
     font-size: 17px;
 }
@@ -26,7 +26,7 @@
 }
 
 .aboutP {
-    color: #27f654;
+    color: #f4a1fe;
     font-family: Courier New;
 }
 
@@ -76,7 +76,7 @@
 }
 
 .winnerP {
-    color: #eb7400;
+    color: #fb7038;
     font-family: Courier New;
     display: inline;
 }
@@ -89,7 +89,7 @@
 }
 
 .winnerHeadP {
-    color: #27f654;
+    color: rgb(244, 161, 254);
     font-family: Courier New;
     font-size: 20px;
 }
@@ -176,14 +176,14 @@
 }
 
 .textPRule {
-    color: #f6f027;
+    color: #fb7038;
     font-family: Courier New;
     display: inline;
     font-size: 17px;
 }
 
 .ruleP {
-    color: #27f654;
+    color: rgb(244, 161, 254);
     font-family: Courier New;
     font-size: 20px;
 }
@@ -193,7 +193,7 @@
         width: 200px;
     }
     .mainHeadp {
-        color: #ffbe29;
+        color: #fb7038;
         font-family: Courier New;
     }
     .headerAbout {
@@ -285,13 +285,13 @@
         font-size: 15px;
     }
     .homePHeadShow {
-        color: #ffbe29;
+        color: #fb7038;
         display: inline;
         font-family: Courier New;
         font-size: 13px;
     }
     .homeresult {
-        color: #27f654;
+        color: rgb(244, 161, 254);
         display: inline;
         font-family: Courier New;
         font-size: 15px;
@@ -317,7 +317,7 @@
         width: 200px;
     }
     .mainHeadp {
-        color: #ffbe29;
+        color: #fb7038;
         font-family: Courier New;
     }
     .headerAbout {
@@ -408,13 +408,13 @@
         font-size: 15px;
     }
     .homePHeadShow {
-        color: #ffbe29;
+        color: #fb7038;
         display: inline;
         font-family: Courier New;
         font-size: 13px;
     }
     .homeresult {
-        color: #27f654;
+        color: rgb(244, 161, 254);
         display: inline;
         font-family: Courier New;
         font-size: 15px;
@@ -443,7 +443,7 @@
         padding-top: 0px;
     }
     .mainHeadp {
-        color: #ffbe29;
+        color: #fb7038;
         display: inline;
         font-family: Courier New;
     }
@@ -543,7 +543,7 @@
         margin-bottom: 15px;
     }
     .homePHeadShow {
-        color: #ffbe29;
+        color: #fb7038;
         display: inline;
         font-family: Courier New;
         font-size: 20px;
@@ -552,7 +552,7 @@
         align-items: center;
     }
     .homeresult {
-        color: #27f654;
+        color: rgb(244, 161, 254);
         display: inline;
         font-family: Courier New;
         font-size: 25px;
@@ -611,7 +611,7 @@
 
 .qFaqP {
     text-align: left;
-    color: #27f654;
+    color: rgb(244, 161, 254);
     font-family: Courier New;
     font-size: 17px;
 }
