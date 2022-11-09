@@ -60,7 +60,7 @@
 	}
 
 	.ctn-preloader .animation-preloader .txt-loading .letterO:before {
-		color: #ffbe29;
+		color: #fb7038;
 	}
 
 	.ctn-preloader .animation-preloader .txt-loading .letterD:before {
@@ -68,7 +68,7 @@
 	}
 
 	.ctn-preloader .animation-preloader .txt-loading .letterE:before {
-		color: #eb7400;
+		color: #9fd1ff;
 	}
 
 	.ctn-preloader .animation-preloader .txt-loading .letterR:before {
@@ -76,11 +76,11 @@
 	}
 
 	.ctn-preloader .animation-preloader .txt-loading .letterS:before {
-		color: #8d153a;
+		color: #f4a1fe;
 	}
 
 	.ctn-preloader .animation-preloader .txt-loading .letterV:before {
-		color: #57b846;
+		color: white;
 	}
 
 	.ctn-preloader .animation-preloader .txt-loading .letterDOT:before {
@@ -129,7 +129,7 @@
 	}
 
 	.ctn-preloader .loader-section {
-	  	 background: radial-gradient(#2f4364, #354e6c);
+	  	 background: linear-gradient(rgb(4, 0, 51), #354e6c);
 	  height: 100%;
 		position: fixed;
 	  top: 0;
