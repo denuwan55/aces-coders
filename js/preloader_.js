@@ -11,6 +11,6 @@ $(document).ready(function() {
                 $(this).remove();
             });
         }
-    }, 1);
+    }, 3000);
 
 });
