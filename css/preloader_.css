@@ -80,7 +80,7 @@
 	}
 
 	.ctn-preloader .animation-preloader .txt-loading .letterV:before {
-		color: white;
+		color: #f4a1fe;
 	}
 
 	.ctn-preloader .animation-preloader .txt-loading .letterDOT:before {
@@ -88,11 +88,11 @@
 	}
 
 	.ctn-preloader .animation-preloader .txt-loading .letter8:before {
-		color: white;
+		color: #9fd1ff;
 	}
 
 	.ctn-preloader .animation-preloader .txt-loading .letter0:before {
-		color: white;
+		color: #fb7038;
 	}
 
 	.ctn-preloader .animation-preloader .txt-loading .letters-loading {
