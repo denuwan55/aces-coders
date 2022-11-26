@@ -6,6 +6,7 @@
     margin-top: 2cm;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: none;
+    color: white;
 }
   
   .button-wrapper-a {
@@ -46,12 +47,15 @@
   }
   */
   .button-wrapper-a :hover, .button-wrapper-a:focus {
-    color: white;
+    color: white !important;
     transform: translateY(-6px);
+    text-decoration: none;
   }
   
   .button-wrapper-a:hover::before, .button-wrapper-a:focus::before {
     opacity: 1;
+    text-decoration: none;
+    color: white;
   }
   
   .button-wrapper-a::after {
@@ -65,11 +69,15 @@
     left: 50%;
     transform: translate(-50%, -50%);
     animation: ring 1.5s infinite;
+    text-decoration: none;
+    color: white;
   }
   
   .button-wrapper-a:hover::after, .button-wrapper-a:focus::after {
     animation: none;
     display: none;
+    text-decoration: none;
+    color: white;
   }
   
   @keyframes ring {
